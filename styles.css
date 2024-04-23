@@ -1,0 +1,51 @@
+body {
+    background-image: url('sdf.gif');
+    background-image: no-repeat;
+    
+}
+
+
+main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+}
+
+    h1 {
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        align-items: baseline;
+  }
+  
+  p {
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 100px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #e75b09, #eecb04);
+    background-repeat: repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    border: #000000;
+    
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+  

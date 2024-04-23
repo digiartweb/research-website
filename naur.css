@@ -1,0 +1,30 @@
+.contact-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #b89ce6;
+    padding: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+    width: 300px;
+    text-align: center;
+}
+
+.contact-options {
+    margin-top: 5px;
+}
+
+.contact-options p {
+    margin-bottom: 5px;
+    
+}
+body {
+    background-image: url('lob.gif');
+}
+
+h1 {
+    margin-top: -12px;
+    font-size: 8;
+}

@@ -1,0 +1,81 @@
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #0b024263, #16127f);
+    color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    transition: color 0.1s ease-in-out;
+}
+
+.menuItem:hover {
+    color: #000000;
+}
+
+.ctaButton {
+    background-color: #4749d494;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.ctaButton:hover {
+    background-color: #000000;
+}
+
+
+but {
+    width: 50px;
+    height: 60px;
+    border-radius: 40px;
+    transition: all 0.1s;
+    cursor: pointer;
+    background: rgba(172, 125, 38, 0.267);
+    font-size: 3em;
+    font-weight: 550;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    position: fixed;
+    margin-left: auto;
+  
+  }
+  but:hover {       
+    background: #fdc7317e;
+    color: white;
+    font-size: 5em;
+    position: fixed;
+    border-radius: inherit;
+    width: inherit;
+  }
+
+  h4 {
+    margin-top: -20;
+  }
